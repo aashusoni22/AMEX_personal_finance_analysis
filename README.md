@@ -8,4 +8,4 @@ Analyzed cleaned data using SQL to calculate the total spend for each item, in o
 
 Finally, visualized data using Tableau to draw insights such as, on which item I have spent the most money, the total amount used out of the total limit, the interest charged and many more
 
-![Dashboard 1](https://user-images.githubusercontent.com/114427519/199865504-3feba512-6b76-4a19-bdc8-8cee20108ad9.png)
+![image](https://user-images.githubusercontent.com/114427519/200885875-a9780aee-c22e-46c7-bc62-faccccade667.png)

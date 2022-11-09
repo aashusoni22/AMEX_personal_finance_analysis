@@ -1,6 +1,8 @@
 # AMEX_personal_finance_analysis
 
-Extracted credit statements for 2021 from the personal Amex account and performed data exploration and data cleaning in Excel. Created a new column to categorize each item into four categories Purchase, Payment, Cashback, and Interest using IF NESTED.
+Extracted credit statements for 2021 from the personal Amex account and performed data exploration and data cleaning in Excel. 
+
+Created a new column to categorize each item into four categories Purchase, Payment, Cashback, and Interest using IF NESTED.
 
 Analyzed cleaned data using SQL to calculate the total spend for each item, in order to compare online vs In-store purchases, online food orders vs groceries and other insightful comparisons.
 

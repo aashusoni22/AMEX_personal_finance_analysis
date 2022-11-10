@@ -17,6 +17,7 @@
 
 - Finally, visualized data using Tableau to draw insights such as, on which item I have spent the most money, the total amount used out of the total limit, the interest    charged and many more
 
+**Link to Interactive Dashboard**
 https://public.tableau.com/views/AMEX_2021PersonalFinanceAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ![image](https://user-images.githubusercontent.com/114427519/200885875-a9780aee-c22e-46c7-bc62-faccccade667.png)

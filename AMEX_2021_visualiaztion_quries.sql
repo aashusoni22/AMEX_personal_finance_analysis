@@ -2,18 +2,19 @@
 -- FOR VISUALIZATION
 
 
--- Looking at total spend per item in year 2021 & 2022
+-- Looking at total spend per item in year 2021
 
 SELECT DISTINCT description, SUM(amount) AS total_spend
 FROM AMEX..Amex
-WHERE transaction_type = 'Purchase'
+WHERE YEAR(date) = 2021 AND transaction_type = 'Purchase'
 GROUP BY description
 ORDER BY total_spend DESC
+LIMIT 5
 
 
 -- # PURCHASES (Online and In-store)
 
--- Comparing total spend on online purchases per month for 2021 & 2022
+-- Comparing total spend on online purchases per month for 2021
 
 SELECT MONTH(date) AS month, 
 		SUM(CASE WHEN YEAR(date) = 2021 THEN amount END) AS total_spent_2021
@@ -26,7 +27,7 @@ WHERE description LIKE 'AMZN% ' OR upper(description) LIKE 'AMAZON%' OR upper(de
 GROUP BY MONTH(date)
 
 
--- Now looking at total spend In-store purchases per month for 2021 & 2022
+-- Now looking at total spend In-store purchases per month for 2021
 
 SELECT MONTH(date) AS month, 
 		SUM(CASE WHEN YEAR(date) = 2021 THEN amount END) AS total_spent_2021

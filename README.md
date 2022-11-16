@@ -44,9 +44,9 @@ https://public.tableau.com/app/profile/aashutoshkumar.soni/viz/AMEXPersonalFinan
 **Tools/Technologies Used**
  
 - Microsoft Excel
+- Power Query
 - SQL
-- Tableau 
-- SQL Views
+- Tableau
 - ETL/ELT
 - Microsoft SQL Server
 

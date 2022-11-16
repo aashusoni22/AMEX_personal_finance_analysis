@@ -3,6 +3,8 @@
 **Link to Interactive Dashboard**
 https://public.tableau.com/app/profile/aashutoshkumar.soni/viz/AMEXPersonalFinanceAnalysis/Dashboard1
 
+*PROJECT BREAKDOWN*
+
 **Goal:** To live healthy lifestyle by spending money consciously on right things.
 
 **Objective:** To analyze spending trends to find ways to build out healthy lifestyle.

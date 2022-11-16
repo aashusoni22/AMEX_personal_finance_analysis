@@ -1,7 +1,9 @@
 # AMEX_personal_finance_analysis
 
 **Goal:** To live healthy lifestyle by spending money consciously on right things.
+
 **Objective:** To analyze spending trends to find ways to build out healthy lifestyle.
+
 **Questions to Answer in order to achieve the Goal:** 
 - “On which item the most money has been spend in 2021? And does that fulfill the current Goal?” 
 - “Where the credit card has been mostly used? Is it for in-store purchases or online?”

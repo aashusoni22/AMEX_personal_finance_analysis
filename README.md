@@ -46,8 +46,7 @@
 - Microsoft SQL Server
 
 **Link to Interactive Dashboard**
-https://public.tableau.com/views/AMEX_2021PersonalFinanceAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/app/profile/aashutoshkumar.soni/viz/AMEXPersonalFinanceAnalysis/Dashboard1
 
-
-![Dashboard 1 (1)](https://user-images.githubusercontent.com/114427519/202273616-e7a904cb-d078-43e5-a6df-0a5a1fec5bf4.png)
+![image](https://user-images.githubusercontent.com/114427519/202273743-6d151def-8e8c-4ca5-a485-c7698dda3040.png)
 

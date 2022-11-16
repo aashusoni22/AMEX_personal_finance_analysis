@@ -1,5 +1,5 @@
 -- AMEX 2021 PERSONAL FINANCE DATA ANALYSIS FOR YEAR 2021 & 2022
--- For Visualization we are going to use data from year 2021. 
+-- For Visualization we are going to use data from year 2021 which is here: https://github.com/aashusoni22/AMEX_personal_finance_analysis/blob/main/AMEX_2021_visualiaztion_quries.sql
 
 
 -- Looking at total spend per item in year 2021

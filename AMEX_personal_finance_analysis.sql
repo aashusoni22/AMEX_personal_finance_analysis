@@ -2,6 +2,11 @@
 -- For Visualization we are going to use data from year 2021 which is here: 
 https://github.com/aashusoni22/AMEX_personal_finance_analysis/blob/main/AMEX_2021_visualiaztion_quries.sql
 
+-- In here we are analysing credit statement 2021 & 2022 of my personal AMEX account in order to identify on whcih items the most has been spent and-
+-- does those items are worth spending and does they fulfil my goal of living a healhty lifestyle.
+
+-- Now let's get into the data using SQL Queries
+
 
 -- Looking at total spend per item in year 2021
 

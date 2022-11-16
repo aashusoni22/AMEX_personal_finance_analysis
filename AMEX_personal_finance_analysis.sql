@@ -1,11 +1,12 @@
--- AMEX 2021 PERSONAL FINANCE DATA ANALYSIS
+-- AMEX 2021 PERSONAL FINANCE DATA ANALYSIS FOR YEAR 2021 & 2022
+-- For Visualization we are going to use data from year 2021. 
 
 
--- Looking at total spend per item in year 2021 & 2022
+-- Looking at total spend per item in year 2021
 
 SELECT DISTINCT description, SUM(amount) AS total_spend
 FROM AMEX..Amex
-WHERE transaction_type = 'Purchase'
+WHERE YEAR(date) = 2021 AND transaction_type = 'Purchase'
 GROUP BY description
 ORDER BY total_spend DESC
 
@@ -16,8 +17,7 @@ ORDER BY total_spend DESC
 
 WITH online_purchase AS(
 SELECT MONTH(date) AS month, 
-	SUM(CASE WHEN YEAR(date) = 2021 THEN amount END) AS total_spent_2021, 
-	SUM(CASE WHEN YEAR(date) = 2022 THEN amount END) AS total_spent_2022
+	SUM(CASE WHEN YEAR(date) = 2021 THEN amount END) AS total_spent_2021
 FROM AMEX..Amex
 WHERE description LIKE 'AMZN% ' OR upper(description) LIKE 'AMAZON%' OR upper(description) LIKE 'CHILDERNS%' OR upper(description) LIKE 'ARDEN%'
 	OR upper(description) LIKE 'FEDEX%' OR upper(description) LIKE 'UDEMY%' OR upper(description) LIKE 'NIKE%' 

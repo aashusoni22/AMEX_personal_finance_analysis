@@ -48,4 +48,5 @@
 **Link to Interactive Dashboard**
 https://public.tableau.com/views/AMEX_2021PersonalFinanceAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
-![image](https://user-images.githubusercontent.com/114427519/200885875-a9780aee-c22e-46c7-bc62-faccccade667.png)
+![Dashboard 1](https://user-images.githubusercontent.com/114427519/202273332-9c194dc8-70e7-424e-a8d0-d70398a39757.png)
+

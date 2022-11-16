@@ -72,3 +72,9 @@ WHERE YEAR(date) = 2021 AND transaction_type = 'Interest'
 SELECT (1300*12) AS credit_limit_per_year, SUM(amount) AS total_limit_used
 FROM AMEX..Amex
 WHERE YEAR(date) = 2021 AND transaction_type = 'Payment'
+
+-- Total payment in 2021
+
+SELECT SUM(amount) AS total_cash_back
+FROM AMEX..Amex
+WHERE transaction_type = 'Cash back'

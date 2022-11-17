@@ -47,7 +47,6 @@ https://public.tableau.com/app/profile/aashutoshkumar.soni/viz/AMEXPersonalFinan
 - Power Query
 - SQL
 - Tableau
-- ETL
 - Microsoft SQL Server
 
 **Link to Interactive Dashboard**
